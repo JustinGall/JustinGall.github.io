@@ -1,90 +1,99 @@
 body {
+  height: 768px;
+  width: 1280px;
 
-    height: 768px;
-    width: 1280px;
+  overflow-y: hidden;
+  overflow-x: hidden;
 
-    overflow-y: hidden;
-    overflow-x: hidden;
+  background-image: url("imgs/ugh.gif");
+  background-size: cover;
 
-    margin: auto;
+  margin: auto;
 }
 
 .mainContain {
+  display: flex;
+  flex-wrap: wrap;
 
-    display: flex;
-    flex-wrap: wrap;
-
-
-    height: 100vh;
-    width: 1280px;
-
+  height: 100vh;
+  width: 1280px;
 }
 
 .topContain {
+  display: flex;
 
+  width: 1280px;
+  height: 80px;
 
-    display: flex;
+  text-align: center;
+  gap: 50px;
 
-    width: 1280px;
-    height: 80px;
+  justify-content: center;
+  align-self: flex-start;
 
-    justify-content: center;
-    align-self: flex-start;
-
-    background-color: plum;
-    border: black 4px ridge;
-
+  background-color: rosybrown;
+  border: purple 4px ridge;
 }
 
 .midScreen {
+  display: flex;
+  justify-content: space-evenly;
 
-    display: flex;
-    justify-content: space-evenly;
+  padding-top: 30px;
 
-    width: 1280px;
+  height: 500px;
+  width: 1280px;
 
-    text-align: center;
-
+  text-align: center;
 }
 
 .leftContain {
+  width: 300px;
+  height: 500px;
 
-    width: 200px;
-    height: 500px;
+  padding: 10px;
 
-    border: black 2px solid;
+  background-color: rosybrown;
 
+  border: purple 2px solid;
 }
 
 .midContain {
- 
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
 
-    border: black 2px solid;
+  padding: 10px;
 
+  background-color: rosybrown;
+
+  border: purple 2px solid;
 }
 
 .rightContain {
-    
-    width: 200px;
-    height: 500px;
+  width: 300px;
+  height: 500px;
 
-    border: black 2px solid;
+  padding: 10px;
 
+  background-color: rosybrown;
+
+  border: purple 2px solid;
 }
 
 .botContain {
- 
-    display: flex;
+  display: flex;
 
-    width: 1280px;
-    height: 80px;
+  width: 1280px;
+  height: 80px;
 
-    justify-content: center;
-    align-self: flex-end;
+  justify-content: center;
+  align-self: flex-end;
 
-    background-color: plum;
-    border: black 4px ridge;
+  background-color: plum;
+  border: purple 4px ridge;
+}
 
+.noob {
+  background-color: whitesmoke;
+  border: 2px purple solid;
 }
