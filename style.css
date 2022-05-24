@@ -1,0 +1,90 @@
+body {
+
+    height: 768px;
+    width: 1280px;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    margin: auto;
+}
+
+.mainContain {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+    height: 100vh;
+    width: 1280px;
+
+}
+
+.topContain {
+
+
+    display: flex;
+
+    width: 1280px;
+    height: 80px;
+
+    justify-content: center;
+    align-self: flex-start;
+
+    background-color: plum;
+    border: black 4px ridge;
+
+}
+
+.midScreen {
+
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 1280px;
+
+    text-align: center;
+
+}
+
+.leftContain {
+
+    width: 200px;
+    height: 500px;
+
+    border: black 2px solid;
+
+}
+
+.midContain {
+ 
+    width: 500px;
+    height: 500px;
+
+    border: black 2px solid;
+
+}
+
+.rightContain {
+    
+    width: 200px;
+    height: 500px;
+
+    border: black 2px solid;
+
+}
+
+.botContain {
+ 
+    display: flex;
+
+    width: 1280px;
+    height: 80px;
+
+    justify-content: center;
+    align-self: flex-end;
+
+    background-color: plum;
+    border: black 4px ridge;
+
+}
