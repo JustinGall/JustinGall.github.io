@@ -5,7 +5,7 @@ body {
   overflow-y: hidden;
   overflow-x: hidden;
 
-  background-image: url("imgs/ugh.gif");
+  background-image: url("imgs/bg.jpg");
   background-size: cover;
 
   margin: auto;
@@ -31,8 +31,8 @@ body {
   justify-content: center;
   align-self: flex-start;
 
-  background-color: rosybrown;
-  border: purple 4px ridge;
+  background-color: #8a4f7d;
+  border-bottom: #88a096 6px ridge;
 }
 
 .midScreen {
@@ -53,10 +53,22 @@ body {
 
   padding: 10px;
 
-  background-color: rosybrown;
+  border-radius: 10px 10px 10px 10px;
 
-  border: purple 2px solid;
+  box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.452);
+
+  background-color: #887880;
+
+  border: #88a096 2px solid;
+
+  transition: transform 0.3s ease-in-out;
 }
+
+.leftContain:hover {
+  transform: scale(1.1);
+}
+
+/* Hover container and animation */
 
 .midContain {
   width: 500px;
@@ -64,10 +76,22 @@ body {
 
   padding: 10px;
 
-  background-color: rosybrown;
+  border-radius: 10px 10px 10px 10px;
 
-  border: purple 2px solid;
+  box-shadow: 0px 0px 15px 25px rgba(0, 0, 0, 0.452);
+
+  background-color: #887880;
+
+  border: #88a096 2px solid;
+
+  transition: transform 0.3s ease-in-out;
 }
+
+.midContain:hover {
+  transform: scale(1.1);
+}
+
+/* -------------------------------------------------------------- */
 
 .rightContain {
   width: 300px;
@@ -75,9 +99,19 @@ body {
 
   padding: 10px;
 
-  background-color: rosybrown;
+  border-radius: 10px 10px 10px 10px;
 
-  border: purple 2px solid;
+  box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.452);
+
+  background-color: #887880;
+
+  border: #88a096 2px solid;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.rightContain:hover {
+  transform: scale(1.1);
 }
 
 .botContain {
@@ -89,11 +123,17 @@ body {
   justify-content: center;
   align-self: flex-end;
 
-  background-color: plum;
-  border: purple 4px ridge;
+  background-color: #8a4f7d;
+  border-top: #88a096 4px ridge;
 }
 
 .noob {
   background-color: whitesmoke;
-  border: 2px purple solid;
+  border: 2px #88a096 solid;
+}
+
+#fordtnitePlay {
+  font-size: larger;
+  width: 80px;
+  height: 60px;
 }
