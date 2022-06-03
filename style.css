@@ -53,8 +53,15 @@ a:visited {
 
 #contact {
   padding-top: 15px;
+  font-size: 32px;
   width: 180px;
-  height: 50px;
+  height: 78px;
+}
+
+#contact-box {
+  display: flex;
+
+  align-items: center;
 }
 
 #contact:hover {
@@ -235,6 +242,7 @@ li a:hover,
 
 li.dropdown {
   display: inline-block;
+  height: 65px;
 }
 
 .dropdown-content {
